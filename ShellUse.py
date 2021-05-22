@@ -1,11 +1,17 @@
+from typing import Pattern
 import requests
+import re
 
 from lib.log import outputscreen
 from submitFlag import submit_flag
 
 '''利用正则/切片匹配flag'''
 def extract_flag(content):
-    flag = content
+
+    pattern = "flag{(.*)}"
+    flag = re.search(pattern,content,flags=0).group(0)
+
+    
     return flag
 
 
