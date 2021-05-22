@@ -12,6 +12,8 @@ ShellUse.py : WebShell自动利用执行命令工具.支持POST and GET
 
 submitFlag.py : 自动提交flag,可整合到ShellUse.py等匹配到flag后自动提交
 
+changeSSH.py : 批量修改ssh密码.
+
 ## lib
 
 一些库文件
