@@ -9,6 +9,7 @@ AWD框架,参考开源脚本整合
 大概都是一些单独的脚本,方便扩展(
 
 ShellUse.py : WebShell自动利用执行命令工具.支持POST and GET
+
 submitFlag.py : 自动提交flag,可整合到ShellUse.py等匹配到flag后自动提交
 
 ## lib
